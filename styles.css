@@ -1,0 +1,76 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+}
+nav{
+	background: #fff;
+	height: 10vh;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 5px 5px rgba(10, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 40, 0.24);
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 3vh;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #232323;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+}
+
+.bg{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+				url(https://scitechdaily.com/images/Planets-in-Space.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content{
+	width: 80%;
+	height: 50%;
+	background: #fff;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.choice{
+	width: 30%;
+	height: 100%;
+	background: #333;
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.choice .uno{
+	width: 100%;
+	height: 60%;
+	background: salmon;
+}
+
+.choice .dos{
+	width: 100%;
+	height: 40%;
+	background: indianred;
+}
